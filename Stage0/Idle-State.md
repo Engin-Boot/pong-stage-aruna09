@@ -2,7 +2,7 @@
 
 ## Feature
 
-This screen is the first screen, which displays a static background 
+This screen is the first screen, which displays a static background
 image of the 'pong game'
 
 ## Acceptance Criteria
