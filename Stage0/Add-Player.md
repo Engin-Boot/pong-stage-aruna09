@@ -13,4 +13,4 @@ Add new player functionality
   When: user clicks the "Add Player" button AND
   there is not more than one player in the game
 
-  Then: Initiate a new player
+  Then: Initiate a new player and Reset score
