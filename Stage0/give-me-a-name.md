@@ -1,17 +1,17 @@
-# -give-this-module-a-name
+# Idle State
 
 ## Feature
 
-What part of the game does this module deliver?
+This screen is the first screen, which displays a static background image of the 'pong game'.
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: The game is in an idle state, and is yet to begin.
 
-  Given -give-initial-values-and-conditions
+  Given: the user has downloaded the app.
+  
+  When: user opens the app
 
-  When -event-happens
-
-  Then -module-does-this
-
-### -add-scenario-if-needed
+  Then: display a static image of the pong game as the background image.
+  Display "Add player" button.
+  Display "Invite player" button.
