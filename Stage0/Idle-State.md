@@ -14,7 +14,11 @@ image of the 'pong game'
   When: user opens the app
 
   Then: Display
-  a static image of the pong game as the background image
+  
+  A static image of the pong game as the background image
+  
   "Add player" button
-  "Invite player" button
+  
+ "Invite player" button
+  
   "Exit" button
