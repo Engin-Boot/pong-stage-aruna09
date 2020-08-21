@@ -22,3 +22,11 @@ image of the 'pong game'
  "Invite player" button
   
   "Exit" button
+  
+  ### Scenario: the user clicks anywhere on the screen
+  
+  Given: the user has downloaded the app
+  
+  When: user opens the app
+
+  Then: do nothing
