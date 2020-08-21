@@ -14,8 +14,7 @@ Inviting player functionality
 
   Then: Display a textbox to enter player id
   
-### Scenario: the user clicks on "Send Invite" button
-### without typing a valid player id
+### Scenario: the user clicks on "Send Invite" button without typing a valid id
   
   Given: the user is on the "Invite-player" page
   
@@ -23,8 +22,7 @@ Inviting player functionality
 
   Then: Alert user "Enter valid player id"
 
-### Scenario: the user clicks on "Send Invite" button
-### after typing a valid player id
+### Scenario: the user clicks on "Send Invite" button after typing a valid id
   
   Given: the user is on the "Invite-player" page
   
@@ -32,8 +30,7 @@ Inviting player functionality
 
   Then: send an invite link to the player
   
-### Scenario: the user clicks on "Send Invite" button
-### after typing an invalid player id
+### Scenario: the user clicks on "Send Invite" button after typing an invalid id
 
   Given: the user is on the "Invite-player" page
   
