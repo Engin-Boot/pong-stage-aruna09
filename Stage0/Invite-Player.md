@@ -53,3 +53,13 @@ Inviting player functionality
   When: user clicks on the "Cancel Invite" button
 
   Then: Display "Invite Cancelled"
+  
+### Scenario: the user clicks on "Start Game" button
+  
+  Given: the user is on the "Invite-player" page AND
+  two players have joined the game
+  
+  When: user clicks on the "StartGame" button
+
+  Then: Display "Starting Game" AND
+  Redirect to Start-State Page
