@@ -59,7 +59,7 @@ Inviting player functionality
   Given: the user is on the "Invite-player" page AND
   two players have joined the game
   
-  When: user clicks on the "StartGame" button
+  When: user clicks on the "Start Game" button
 
   Then: Display "Starting Game" AND
   Redirect to Start-State Page
