@@ -11,6 +11,7 @@ Add new player functionality
   Given: the app is open
 
   When: user clicks the "Add Player" button AND
+  either there are 0 players OR
   there is not more than one player in the game
 
   Then: Initiate a new player and Reset score
