@@ -6,11 +6,19 @@ The "Play-Game" functionality
 
 ## Acceptance Criteria
 
-### Scenario: when the user clicks on the "Play Game" button
+### Scenario: the game state is visible to the user
 
-  Given: the app is open in idle state
+  Given: the app is open in game state
 
-  When: user clicks on the "Play Game" button
+  When: the game-state page is visible to the users
 
-  Then: Set score of both players to zero
-  Redirect to "Game page"
+  Then: display two bars at both ends AND
+  a ball in the middle
+  
+### Scenario: the game state is not visible to the user
+
+  Given: the app is open in game state
+
+  When: the game-state page is not visible to the users
+
+  Then: Display "Loading Game Page"
