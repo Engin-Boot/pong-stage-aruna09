@@ -38,7 +38,7 @@ The "Play-Game" functionality
 
   Given: the app is open in game state
 
-  When: the ball touces the wall
+  When: the ball touches the wall
 
   Then: Detect ball position AND
   record coordinates
