@@ -23,3 +23,13 @@ The "Start-Game" functionality
   When: user clicks on the "Exit" button
 
   Then: Go to exit-state
+  
+### Scenario: the game has finished loading
+
+  Given: the app is open in start state AND
+  the two players are in the game
+
+  When: the game has finished loading
+
+  Then: Display "Game Loaded" AND
+  Redirect to "Game State"
