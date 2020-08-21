@@ -23,7 +23,7 @@ image of the 'pong game'
   
   "Exit" button
   
-  ### Scenario: the user clicks anywhere on the screen
+### Scenario: the user clicks anywhere on the screen
   
   Given: the user has downloaded the app
   
