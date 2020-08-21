@@ -6,12 +6,20 @@ The "Start-Game" functionality
 
 ## Acceptance Criteria
 
-### Scenario: the user clicks the "Start Game" button
+### Scenario: user presses anywhere on the page
 
-  Given: the app is open in idle state and
+  Given: the app is open in start state and
   the two players are in the game
 
-  When: user presses on the "Start Game" button
+  When: user presses anywhere on the screen
 
-  Then: Set score of both players to zero
-  Redirect to "Game page"
+  Then: do nothing
+  
+### Scenario: user clicks on "Exit" button
+
+  Given: the app is open in start state and
+  the two players are in the game
+
+  When: user clicks on the "Exit" button
+
+  Then: Go to exit-state
