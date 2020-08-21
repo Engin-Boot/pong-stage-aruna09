@@ -6,9 +6,10 @@ The "Start-Game" functionality
 
 ## Acceptance Criteria
 
-### Scenario: when the user presses the "Start Game" button
+### Scenario: the user clicks the "Start Game" button
 
-  Given: the app is open in idle state
+  Given: the app is open in idle state and
+  the two players are in the game
 
   When: user presses on the "Start Game" button
 
