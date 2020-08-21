@@ -12,7 +12,7 @@ Inviting player functionality
   
   When: user clicks on "Send Invite"
 
-  Then: Display a textbox to enter player id
+  Then: Display a text box to enter player id
   
 ### Scenario: the user clicks on "Send Invite" button without typing a valid id
   
