@@ -2,7 +2,7 @@
 
 ## Feature
 
-Provides all te background logic of the game
+Provides all the background logic of the game
 
 ## Acceptance Criteria
 
