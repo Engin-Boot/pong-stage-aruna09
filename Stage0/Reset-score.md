@@ -6,7 +6,7 @@ The "Reset-score" functionality
 
 ## Acceptance Criteria
 
-### Scenario: when a new player joins the game OR a new game starts
+### Scenario: a new player joins the game OR a new game starts
 
   Given: the app is open
 
@@ -14,4 +14,4 @@ The "Reset-score" functionality
   a new player joins the game
 
   Then: Set score of both players to zero
-  Redirect to "Game page"
+  Redirect to "Game state" page
