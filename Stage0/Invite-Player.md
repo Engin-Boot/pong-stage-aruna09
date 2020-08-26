@@ -6,14 +6,6 @@ Inviting player functionality
 
 ## Acceptance Criteria
 
-### Scenario: User wants to add a new player to the game
-
-  Given: the user is on the "Invite-player" page
-  
-  When: user clicks on "Send Invite"
-
-  Then: Display a text box to enter player id
-  
 ### Scenario: the user clicks on "Send Invite" button without typing a valid id
   
   Given: the user is on the "Invite-player" page
