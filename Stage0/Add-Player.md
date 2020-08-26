@@ -8,7 +8,7 @@ Add new player functionality
 
 ### Scenario: when the user presses the "Add Player" button
 
-  Given: the app is open
+  Given: the app is open and is in IDLE state
 
   When: user clicks the "Add Player" button AND
   either there are 0 players OR
