@@ -14,5 +14,5 @@ The "Exit-Game" functionality
 
   Then: Alert user with the message
   "Are you sure you want to exit" AND
-  exit if the user clciks YES otherwise
+  exit if the user clicks YES otherwise
   redirect to the previous state
