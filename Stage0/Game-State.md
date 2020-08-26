@@ -31,7 +31,8 @@ The "Play-Game" functionality
 
   When: the timer reaches 0
 
-  Then: Notify "Handle-Ball-Movements"
+  Then: Notify "Handle-Ball-Movements" with message
+  "First ball drop"
   
 ### Scenario: the ball touches the wall
 
@@ -41,8 +42,7 @@ The "Play-Game" functionality
 
   Then: Detect ball position AND
   record coordinates AND
-  Notify "Handle-Ball-Movements" AND
-  Notify "Handle-Score"
+  Notify "Handle-Ball-Movements"
   
 ### Scenario: the ball touches a bar
 
