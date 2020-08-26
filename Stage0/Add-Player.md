@@ -24,8 +24,6 @@ Add new player functionality
   When: user clicks on "Start-game" button
 
   Then: Redirect to the "Start-game" page
-  
-### Scenario: User clicks on "Start game" button
 
   Given: the user is on the "Add-player-state" page AND
   there is no more than one player
@@ -34,4 +32,3 @@ Add new player functionality
 
   Then: Alert user
   "Game cannot begin with just one player!"
-  
