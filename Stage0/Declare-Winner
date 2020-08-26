@@ -1,0 +1,22 @@
+# Declare Winner state
+
+## Feature
+
+The "Declare winner" functionality
+
+## Acceptance Criteria
+
+### Scenario: a score has reached the maximum score
+
+  Given: the app is open in "Game-state"
+
+  When: receives player number
+  
+  Then:Display "Winner" with player number
+  
+### Scenario: no score has reached maximum score
+  Given: the app is open in "Game-state"
+
+  When: receives two scores
+
+  Then: do nothing
