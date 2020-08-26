@@ -10,9 +10,9 @@ The "Exit-Game" functionality
 
   Given: the app is open
 
-  When: user presses on the "Exit Game" button
+  When: user is redirected to "Exit-state"
 
   Then: Alert user with the message
   "Are you sure you want to exit" AND
-  exit if the user presses YES otherwise
+  exit if the user clciks YES otherwise
   redirect to the previous state
