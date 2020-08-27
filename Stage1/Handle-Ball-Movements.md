@@ -13,8 +13,17 @@ Handles Ball Movement functionality
   When: receives the message "First ball drop"
 
   Then: make the ball and drop from a
-  predefined height
+  predefined height with a given speed
 
+### Scenario: the user has made an "In-app-purchase"
+of a customized bar
+
+  Given: the app is open in "Game-state"
+
+  When: receives the ball position and coordinates
+
+  Then: double speed and make ball at the relevant position
+  
 ### Scenario: receives the position and the coordinates
 
   Given: the app is open in "Game-state"
