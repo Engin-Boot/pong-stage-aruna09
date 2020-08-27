@@ -1,8 +1,8 @@
-# Game state
+# Handle-Bar-Movements
 
 ## Feature
 
-The "Play-Game" functionality
+Handles the movements of the bar
 
 ## Acceptance Criteria
 
