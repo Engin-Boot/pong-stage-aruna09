@@ -16,7 +16,6 @@ Handles Ball Movement functionality
   predefined height with a given speed
 
 ### Scenario: the user has made an "In-app-purchase"
-of a customized bar
 
   Given: the app is open in "Game-state"
 
