@@ -1,0 +1,15 @@
+# Handle-Score state
+
+## Feature
+
+The "Handle-score" functionality
+
+## Acceptance Criteria
+
+### Scenario: receives a player no
+
+  Given: the app is open in "Game-state"
+
+  When: receives the player no
+
+  Then: decrement score of the player
