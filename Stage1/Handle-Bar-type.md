@@ -23,7 +23,7 @@ Handles Bar types and its features
   When: user clicks on "Start-game" button
 
   Then: Paint the "customized bar" AND
-  Notify 
+  Notify "Handle-ball-movements"
 
   Given: the user is on the "Add-player-state" page AND
   there is no more than one player
