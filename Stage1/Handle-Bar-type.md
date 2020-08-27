@@ -17,7 +17,7 @@ Handles Bar types and its features
   
 ### Scenario: user has made an In-app purchase of a customized bar
 
-  Given: the user has sucessfully completed the payment for the new
+  Given: the user has successfully completed the payment for the new
   bar and launched the game
   
   When: user clicks on "Start-game" button
